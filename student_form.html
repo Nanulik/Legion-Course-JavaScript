@@ -1,0 +1,60 @@
+<html>
+
+<head>
+ <!--   <style>
+        h1,
+        label {
+            color: brown;
+            font-size: medium;
+        }
+    </style> 
+-->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+    
+    <h1>LegionQA school registration</h1>
+    <form>
+
+        <label>First Name</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label>Last Name</label>
+        <input type="text" id="lname" name="lname">
+
+        <p>Please choose your gender</p>
+        <input type="radio" id="female" name="gender"> <label>Female</label><br>
+        <input type="radio" id="male" name="gender"> <label>Male</label><br>
+        <input type="radio" id="other" name="gender" ><label>Other</label>
+
+        <p>Please Choose course</p>
+        <input type="checkbox" id="java" name="java">
+        <label>Java</label><br>
+
+        <input type="checkbox" id="javaScript" name="javaScript">
+        <label>javaScript</label><br>
+
+        <input type="checkbox" id="jpython" name="python">
+        <label>Python</label><br>
+
+        <p>
+            <label>Please choose city</label>
+            <select id="cities" name="cities">
+                <option class="red" value="toronto">Toronto</option>
+                <option  class="blue" value="new-york">New-York</option>
+                <option class="green" value="london">London</option>
+            </select>
+        </p>
+
+        <p>
+            <button type="submit" id="save">Save</button>
+            <button class="red" type="reset" id="reset">Reset</button>
+        </p>
+
+
+    </form>
+</body>
+
+</html>

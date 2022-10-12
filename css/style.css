@@ -1,0 +1,19 @@
+h1,
+label {
+    color: blue;
+    font-size: medium;
+}
+
+#save{
+    color: black;
+   /* border-style: dotted;*/
+}
+.red {
+    color: blueviolet;
+}
+option.green{
+    color: palevioletred;
+}
+.blue{
+    color: blue;
+}

@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css\style.css" />
+</head>
+
+<body>
+    <h1>Giraffe Manor </h1>
+    <h3>About us</h3>
+    <img src="GiraffeManor.jpg" width="350" height="350" alt="Hotel img Giraffe Manor">
+    <img src="the-retreat-plunge-pool.jpg" width="350" height="350" alt="img Giraffe Manor pool">
+
+    <p class="about">
+        Giraffe Manor is an iconic boutique hotel set in a leafy suburb of Nairobi. Owned and operated by The Safari
+        Collection, there are twelve individually decorated rooms,
+        <br>offering first-class comfort and the feeling of staying in an elegant family home.
+        <br>The charming herd of resident Rothchild’s giraffes roam the surrounding sanctuary and give guests unique,
+        <br>once-in-a-lifetime encounters over breakfast and afternoon tea when they can be fed by hand.
+        <br> The Retreat at Giraffe Manor, found on the same property, gives guests access to a stunning pool and
+        wellness facilities.
+    </p>
+    <ul>
+        <h3>Amenities</h3>
+        <li>Free parking</li>
+        <li>Sauna</li>
+        <li>Airport transportation</li>
+        <li>24-hour security</li>
+        <li>Wifi</li>
+        <li>Restaurant</li>
+        <li>Shuttle bus service</li>
+        <li>Massage</li>
+    </ul>
+    <form>
+        <p>
+            <label>Choose number of guests</label>
+            <select id="numberGuests" name="numberGuests">
+                <option class="red" value="1 guest">1 Guest</option>
+                <option class="blue" value="2 guest">2 Guest</option>
+                <option class="green" value="3 guest">3 Guest</option>
+                <option class="green" value="4 guest">4 Guest</option>
+                <option class="green" value="5 guest">5 Guest</option>
+                <option class="green" value="6 guest">6 Guest</option>
+            </select>
+        </p>
+        <p>
+        <h4>Please choose breakfast</h4>
+        <input type="radio" id="breakfast_included" name="breakfast"><label>Breakfast included</label>
+
+        <input type="radio" id="noBreakfast" name="breakfast"><label>Breakfast not included</label>
+        </p>
+
+        <p>
+        <h4>Choose additional services</h4>
+        <input type="checkbox" id="guided_tour" name="guided_tour">
+        <label>Guided Tour</label><br>
+        <input type="checkbox" id="hourse_riding" name="hourse_riding">
+        <label>Hourse Riding</label><br>
+        <input type="checkbox" id="concert-ticket" name="concert_tickets">
+        <label>Concert Tickets</label><br><br>
+
+        <p>
+            <button class="submit" type="submit" id="book">Book a Room</button>
+            <button class="reset" type="reset" id="reset">Reset</button>
+        </p>
+    </form>
+</body>
+
+</html>
