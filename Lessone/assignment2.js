@@ -11,3 +11,4 @@ const appartment  = {
 }
 
 console.log(appartment.getDetails());
+
