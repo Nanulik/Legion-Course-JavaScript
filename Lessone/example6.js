@@ -1,6 +1,6 @@
 
 
-const fruits = [ "Apple", "Banana", "Pear", "Avocado"];
+const fruits = [ "Apple", "Banana", "Pear", "Kiwi"];
 
 for (let index = 0; index < fruits.length; index++) {
     //const element = array[index];
