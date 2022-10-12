@@ -1,5 +1,5 @@
 
-let myShoppingList = ["milk", 6, "bread", "eggs"];
+let myShoppingList = ["milk", 9, "bread", "eggs"];
 
 // console.log(myShoppingList[0]);
 console.log(myShoppingList.length);
